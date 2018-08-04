@@ -13,7 +13,7 @@
         "bignum": "^0.13.0",
         "cli-color": "^1.2.0",
         "cryptonote-util": "git://github.com/electronero/node-cryptonote-util.git#xmr-Nan-2.0",
-        "cryptonight-hashing": "git://github.com/masari-project/node-cryptonight-hashing.git",
+        "cryptonight-hashing": "git://github.com/electronero-project/node-cryptonight-hashing.git",
         "dateformat": "^3.0.3",
         "mailgun.js": "^2.0.1",
         "node-telegram-bot-api": "^0.30.0",
