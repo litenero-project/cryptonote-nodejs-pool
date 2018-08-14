@@ -12,18 +12,18 @@
         "base58-native": "^0.1.4",
         "bignum": "^0.13.0",
         "cli-color": "^1.2.0",
-        "cryptonote-util": "git://github.com/electronero/node-cryptonote-util.git#xmr-Nan-2.0",
         "cryptonight-hashing": "git://github.com/electronero-project/node-cryptonight-hashing.git",
+        "cryptonote-util": "git://github.com/electronero/node-cryptonote-util.git#xmr-Nan-2.0",
         "dateformat": "^3.0.3",
         "mailgun.js": "^2.0.1",
         "node-telegram-bot-api": "^0.30.0",
         "nodemailer": "^2.7.2",
         "nodemailer-sendmail-transport": "^1.0.2",
         "redis": "^2.8.0",
+        "request": "^2.87.0",
         "socket.io": "^2.1.1",
         "time-ago": "^0.2.1"
     },
     "engines": {
-        "node": ">=0.10"
+        "node": ">=4.0"
     }
-}
