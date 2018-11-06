@@ -37,33 +37,33 @@
         "sslCA": "fullchain.pem",
         "ports": [
             {
-                "port": 1122,
+                "port": 1212,
                 "difficulty": 10000,
                 "desc": "Low end hardware"
             },
             {
-                "port": 2233,
+                "port": 2323,
                 "difficulty": 100000,
                 "desc": "Mid range hardware"
             },
             {
-                "port": 3344,
+                "port": 3434,
                 "difficulty": 500000,
                 "desc": "High end hardware"
             },
             {
-                "port": 4455,
+                "port": 4545,
                 "difficulty": 1000000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
-                "port": 6666,
+                "port": 1616,
                 "difficulty": 3000,
                 "desc": "Hidden port",
                 "hidden": true
             },
             {
-                "port": 6677,
+                "port": 7766,
                 "difficulty": 1000000,
                 "desc": "SSL connection",
                 "ssl": true
@@ -134,12 +134,12 @@
         "hashrateWindow": 600,
         "updateInterval": 5,
         "bindIp": "0.0.0.0",
-        "port": 8117,
+        "port": 7117,
         "blocks": 30,
         "payments": 30,
         "password": "admin_pass",
         "ssl": true,
-        "sslPort": 8119,
+        "sslPort": 7119,
         "sslCert": "cert.pem",
         "sslKey": "privkey.pem",
         "sslCA": "fullchain.pem",
@@ -148,19 +148,19 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 3000
+        "port": 10120
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 3000
+        "port": 10122
     },
 
     "redis": {
         "host": "127.0.0.1",
         "port": 3279,
         "auth": null,
-        "db": 0,
+        "db": 2,
         "cleanupInterval": 15
     },
 
