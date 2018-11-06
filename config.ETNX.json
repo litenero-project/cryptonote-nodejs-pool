@@ -3,8 +3,8 @@
 
     "coin": "electronero",
     "symbol": "ETNX",
-    "coinUnits": 100,
-    "coinDecimalPlaces": 2,
+    "coinUnits": 100000000,
+    "coinDecimalPlaces": 8,
     "coinDifficultyTarget": 60,
 
     "daemonType": "default",
@@ -111,13 +111,13 @@
         "maxAddresses": 10,
         "mixin": 2,
         "priority": 0,
-        "transferFee": 20000,
+        "transferFee": 3000000,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
-        "minPayment": 100000,
-        "maxPayment": 25000000,
-        "maxTransactionAmount": 50000000,
-        "denomination": 100
+        "minPayment": 1000000000,
+        "maxPayment": 250000000000,
+        "maxTransactionAmount": 1000000000000,
+        "denomination": 100000000
     },
 
     "blockUnlocker": {
