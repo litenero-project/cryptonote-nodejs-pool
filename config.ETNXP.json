@@ -134,12 +134,12 @@
         "hashrateWindow": 600,
         "updateInterval": 5,
         "bindIp": "0.0.0.0",
-        "port": 8117,
+        "port": 6117,
         "blocks": 30,
         "payments": 30,
         "password": "admin_pass",
         "ssl": true,
-        "sslPort": 8119,
+        "sslPort": 6119,
         "sslCert": "cert.pem",
         "sslKey": "privkey.pem",
         "sslCA": "fullchain.pem",
@@ -148,19 +148,19 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 3000
+        "port": 20222
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 3000
+        "port": 20221
     },
 
     "redis": {
         "host": "127.0.0.1",
         "port": 3279,
         "auth": null,
-        "db": 0,
+        "db": 3,
         "cleanupInterval": 15
     },
 
