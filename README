@@ -6,5 +6,12 @@ This directory contains your keys and certificates.
 `cert.pem`     : will break many server configurations, and should not be used
                  without reading further documentation (see link below).
 
+<<<<<<< HEAD
+=======
+WARNING: DO NOT MOVE THESE FILES!
+         Certbot expects these files to remain in this location in order
+         to function properly!
+
+>>>>>>> afeec7dd5b1f0e07b5ad6c1a9da30a89aebb8ae1
 We recommend not moving these files. For more information, see the Certbot
 User Guide at https://certbot.eff.org/docs/using.html#where-are-my-certificates.

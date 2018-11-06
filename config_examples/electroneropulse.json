@@ -1,10 +1,10 @@
 {
     "poolHost": "POOL_URL",
 
-    "coin": "electronero",
-    "symbol": "ETNX",
-    "coinUnits": 100000000,
-    "coinDecimalPlaces": 8,
+    "coin": "electroneropulse",
+    "symbol": "ETNXP",
+    "coinUnits": 100,
+    "coinDecimalPlaces": 2,
     "coinDifficultyTarget": 60,
 
     "daemonType": "default",
@@ -37,33 +37,33 @@
         "sslCA": "fullchain.pem",
         "ports": [
             {
-                "port": 1212,
+                "port": 1122,
                 "difficulty": 10000,
                 "desc": "Low end hardware"
             },
             {
-                "port": 2323,
+                "port": 2233,
                 "difficulty": 100000,
                 "desc": "Mid range hardware"
             },
             {
-                "port": 3434,
+                "port": 3344,
                 "difficulty": 500000,
                 "desc": "High end hardware"
             },
             {
-                "port": 4545,
+                "port": 4455,
                 "difficulty": 1000000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
-                "port": 1616,
+                "port": 6666,
                 "difficulty": 3000,
                 "desc": "Hidden port",
                 "hidden": true
             },
             {
-                "port": 7766,
+                "port": 6677,
                 "difficulty": 1000000,
                 "desc": "SSL connection",
                 "ssl": true
@@ -111,13 +111,13 @@
         "maxAddresses": 10,
         "mixin": 2,
         "priority": 0,
-        "transferFee": 3000000,
+        "transferFee": 20000,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
-        "minPayment": 1000000000,
-        "maxPayment": 250000000000,
-        "maxTransactionAmount": 1000000000000,
-        "denomination": 100000000
+        "minPayment": 100000,
+        "maxPayment": 25000000,
+        "maxTransactionAmount": 50000000,
+        "denomination": 100
     },
 
     "blockUnlocker": {
@@ -134,12 +134,12 @@
         "hashrateWindow": 600,
         "updateInterval": 5,
         "bindIp": "0.0.0.0",
-        "port": 7117,
+        "port": 8117,
         "blocks": 30,
         "payments": 30,
         "password": "admin_pass",
         "ssl": true,
-        "sslPort": 7119,
+        "sslPort": 8119,
         "sslCert": "cert.pem",
         "sslKey": "privkey.pem",
         "sslCA": "fullchain.pem",
@@ -148,19 +148,19 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 10120
+        "port": 3000
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 10122
+        "port": 3000
     },
 
     "redis": {
         "host": "127.0.0.1",
         "port": 3279,
         "auth": null,
-        "db": 2,
+        "db": 0,
         "cleanupInterval": 15
     },
 
