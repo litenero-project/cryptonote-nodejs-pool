@@ -4,8 +4,8 @@ sudo timedatectl set-timezone Etc/UTC
 sudo apt-get update
 cd ~
 git clone https://github.com/electroneropool/cryptonote-nodejs-pool.git  # Change this depending on how the deployment goes.
-cd ~
-sh get_boost.sh
+cd cryptonote-nodejs-pool
+sh deployment/get_boost.sh
 sudo apt-get install ntp
 sudo systemctl enable ntp
 cd /usr/local/src
