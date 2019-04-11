@@ -1,8 +1,8 @@
 {
     "poolHost": "POOL_URL",
 
-    "coin": "electronero",
-    "symbol": "ETNX",
+    "coin": "litenero",
+    "symbol": "LTNX",
     "coinUnits": 100000000,
     "coinDecimalPlaces": 8,
     "coinDifficultyTarget": 60,
@@ -134,12 +134,12 @@
         "hashrateWindow": 600,
         "updateInterval": 5,
         "bindIp": "0.0.0.0",
-        "port": 8117,
+        "port": 8112,
         "blocks": 30,
         "payments": 30,
         "password": "admin_pass",
         "ssl": true,
-        "sslPort": 8119,
+        "sslPort": 8113,
         "sslCert": "cert.pem",
         "sslKey": "privkey.pem",
         "sslCA": "fullchain.pem",
@@ -153,7 +153,7 @@
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 3000
+        "port": 3001
     },
 
     "redis": {
